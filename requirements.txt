@@ -1,0 +1,11 @@
+# Core dependencies for the electoral roll OCR pipeline
+# Install PaddlePaddle separately before this file.
+# CPU example:
+#   python -m pip install paddlepaddle==3.2.0 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
+# GPU CUDA 11.8 example:
+#   python -m pip install paddlepaddle-gpu==3.2.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu118/
+
+paddleocr>=3.0,<4.0
+PyMuPDF>=1.24.0
+Pillow>=10.0.0
+numpy>=1.24.0,<3.0.0
